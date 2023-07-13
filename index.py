@@ -1,5 +1,4 @@
 def on_received_number(cb):
-    global count
      if (radio.receivedPacket(RadioPacketProperty.SignalStrength) >= strength) {
      basic.showNumber(radio.receivedPacket(RadioPacketProperty.SignalStrength))
      radio.sendNumber(id2)
